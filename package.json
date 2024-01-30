@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "better-npm-run start",
+    "start": "node api.js && better-npm-run start",
     "test": "better-npm-run test",
-    "dev": "better-npm-run dev",
+    "dev": "node api.js && better-npm-run dev",
     "db:create": "sequelize-cli db:create",
     "db:migrate": "sequelize-cli db:migrate"
   },
